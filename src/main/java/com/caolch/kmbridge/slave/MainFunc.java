@@ -1,4 +1,4 @@
 package com.caolch.kmbridge.slave;
 
-public class Executor {
+public class MainFunc {
 }

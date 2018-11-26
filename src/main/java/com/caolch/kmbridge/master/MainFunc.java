@@ -7,7 +7,6 @@ import java.lang.reflect.InvocationTargetException;
 public class MainFunc {
     public static void main(String[] args) {
         JFrame.setDefaultLookAndFeelDecorated(true);
-        final KeyAdapter keyListener = new KeyEventListener();
         final JFrame km = new KMFrame();
 
         try {
@@ -18,7 +17,7 @@ public class MainFunc {
              */
             SwingUtilities.invokeAndWait(new Runnable() {
                 public void run() {
-                    ((KMFrame) km).initFrame(keyListener);
+                    ((KMFrame) km).initFrame();
                 }
             });
         } catch (InterruptedException e) {

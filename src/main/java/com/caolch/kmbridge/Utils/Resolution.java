@@ -1,8 +1,8 @@
 package com.caolch.kmbridge.Utils;
 
 public class Resolution {
-    public int width;
-    public int height;
+    private int width;
+    private int height;
 
     @Override
     public String toString() {
