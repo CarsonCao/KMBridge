@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.event.KeyAdapter;
 import java.lang.reflect.InvocationTargetException;
 
-public class Executor {
+public class Master {
     public static void main(String[] args) {
         JFrame.setDefaultLookAndFeelDecorated(true);
         KeyAdapter keyListener = new KeyEventListener();

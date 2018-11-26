@@ -11,14 +11,14 @@ public class KMFrame extends JFrame {
 
         int screenWidth = java.awt.Toolkit.getDefaultToolkit().getScreenSize().width;
         int screenHeight = java.awt.Toolkit.getDefaultToolkit().getScreenSize().height;
-        this.setSize(800, 450);//设置Frame的大小
-        this.setLocation((screenWidth-800), (screenHeight-450));//设置Frame显示在屏幕中央
+        this.setSize(1200, 800);//设置Frame的大小
+        this.setLocation((screenWidth-1200)/2, (screenHeight-800)/2);//设置Frame显示在屏幕中央
 
         this.setBackground(new Color(0, true));
         this.getContentPane().add(MainPanel());
 
         this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        this.setTitle("my jframe");
+        this.setTitle("KMBridge");
         this.setVisible(true);
         this.setFocusTraversalKeysEnabled(false);
         this.setAlwaysOnTop(true);
