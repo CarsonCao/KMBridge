@@ -1,4 +1,4 @@
-package com.caolch.kmbridge.server;
+package com.caolch.kmbridge.sender;
 
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;

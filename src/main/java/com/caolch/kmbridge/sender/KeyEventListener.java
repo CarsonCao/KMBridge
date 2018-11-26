@@ -1,8 +1,7 @@
-package com.caolch.kmbridge.server;
+package com.caolch.kmbridge.sender;
 
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
-import java.awt.event.MouseAdapter;
 import java.util.HashSet;
 import java.util.Set;
 

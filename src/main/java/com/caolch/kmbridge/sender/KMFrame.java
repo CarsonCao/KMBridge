@@ -1,13 +1,12 @@
-package com.caolch.kmbridge.server;
+package com.caolch.kmbridge.sender;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyAdapter;
-import java.lang.reflect.InvocationTargetException;
 
 public class KMFrame extends JFrame {
 
-    public KMFrame(KeyAdapter listener){
+    public void initFrame(KeyAdapter listener){
 
         int screenWidth = java.awt.Toolkit.getDefaultToolkit().getScreenSize().width;
         int screenHeight = java.awt.Toolkit.getDefaultToolkit().getScreenSize().height;
