@@ -1,10 +1,10 @@
-package com.caolch.kmbridge.sender;
+package com.caolch.kmbridge.master;
 
 import javax.swing.*;
 import java.awt.event.KeyAdapter;
 import java.lang.reflect.InvocationTargetException;
 
-public class Master {
+public class MainFunc {
     public static void main(String[] args) {
         JFrame.setDefaultLookAndFeelDecorated(true);
         final KeyAdapter keyListener = new KeyEventListener();

@@ -1,4 +1,4 @@
-package com.caolch.kmbridge.receiver;
+package com.caolch.kmbridge.slave;
 
 import java.io.BufferedReader;
 import java.io.DataInputStream;

@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31918b37-af7c-4fe2-84bd-325505d32180" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/receiver/SocketServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/sender/Master.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/sender/SocketClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/client/Executor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/receiver/Executor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/client/Receiver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/server/KMFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/sender/KMFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/server/KeyEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/sender/KeyEventListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/server/Master.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/server/MouseEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/sender/MouseEventListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/server/Sender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/caolch/kmbridge/client/Receiver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/caolch/kmbridge/server/Executor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/caolch/kmbridge/server/KMFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/caolch/kmbridge/server/KMFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/caolch/kmbridge/server/Sender.class" beforeDir="false" />
-    </list>
+    <list default="true" id="31918b37-af7c-4fe2-84bd-325505d32180" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,14 +76,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Master.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Master.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/sender/Master.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+            <state relative-caret-position="400">
+              <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#426#569#0" expanded="true" />
                 <element signature="e#568#569#0" expanded="true" />
               </folding>
             </state>
@@ -115,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SocketServer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SocketServer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/receiver/SocketServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="268">
+              <caret line="42" column="85" selection-start-line="42" selection-start-column="85" selection-end-line="42" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -262,6 +245,16 @@
               <item name="kmbridge" type="462c0819:PsiDirectoryNode" />
               <item name="sender" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="KMBridge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KMBridge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kmbridge" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -289,14 +282,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Master">
+  <component name="RunManager" selected="Application.MainFunc">
     <configuration name="KMFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.caolch.kmbridge.sender.KMFrame" />
+      <option name="MAIN_CLASS_NAME" value="com.caolch.kmbridge.master.KMFrame" />
       <module name="shareKeyboardMouse" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.caolch.kmbridge.sender.*" />
+          <option name="PATTERN" value="com.caolch.kmbridge.master.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,35 +305,35 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Master" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.caolch.kmbridge.sender.Master" />
+    <configuration name="MainFunc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.caolch.kmbridge.master.MainFunc" />
       <module name="shareKeyboardMouse" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.caolch.kmbridge.sender.*" />
+          <option name="PATTERN" value="com.caolch.kmbridge.master.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="SocketClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.caolch.kmbridge.sender.SocketClient" />
+      <option name="MAIN_CLASS_NAME" value="com.caolch.kmbridge.master.SocketClient" />
       <module name="shareKeyboardMouse" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.caolch.kmbridge.sender.*" />
+          <option name="PATTERN" value="com.caolch.kmbridge.master.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="SocketServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.caolch.kmbridge.receiver.SocketServer" />
+      <option name="MAIN_CLASS_NAME" value="com.caolch.kmbridge.slave.SocketServer" />
       <module name="shareKeyboardMouse" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.caolch.kmbridge.sender.*" />
+          <option name="PATTERN" value="com.caolch.kmbridge.master.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -389,13 +382,13 @@
     <list>
       <item itemvalue="Application.KMFrame" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Master" />
+      <item itemvalue="Application.MainFunc" />
       <item itemvalue="Application.SocketServer" />
       <item itemvalue="Application.SocketClient" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Master" />
+        <item itemvalue="Application.MainFunc" />
         <item itemvalue="Application.SocketClient" />
         <item itemvalue="Application.SocketServer" />
         <item itemvalue="Application.KMFrame" />
@@ -428,12 +421,12 @@
       <workItem from="1543052610126" duration="10830000" />
       <workItem from="1543160279850" duration="96000" />
       <workItem from="1543199729759" duration="1718000" />
-      <workItem from="1543204272602" duration="4250000" />
+      <workItem from="1543204272602" duration="5125000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21059000" />
+    <option name="totallyTimeSpent" value="21934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -449,8 +442,8 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4422254" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3281027" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44793153" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31669044" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27144772" />
@@ -550,7 +543,6 @@
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#426#569#0" expanded="true" />
             <element signature="e#568#569#0" expanded="true" />
           </folding>
         </state>
@@ -590,7 +582,6 @@
           <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#426#569#0" expanded="true" />
             <element signature="e#568#569#0" expanded="true" />
           </folding>
         </state>
@@ -799,12 +790,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/receiver/SocketServer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/sender/Master.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="400">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -819,14 +811,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/sender/Master.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/receiver/SocketServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="268">
+          <caret line="42" column="85" selection-start-line="42" selection-start-column="85" selection-end-line="42" selection-end-column="85" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#426#569#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
           </folding>
         </state>
       </provider>
