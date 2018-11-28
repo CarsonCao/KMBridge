@@ -1,6 +1,7 @@
 package com.caolch.kmbridge.master;
 
 import com.caolch.kmbridge.Utils.Resolution;
+import com.caolch.kmbridge.Utils.ScreenUtil;
 
 import javax.swing.*;
 import java.awt.*;
@@ -11,10 +12,17 @@ import java.util.List;
 public class KMFrame extends JFrame {
 
     public void initFrame() {
+        //init listeners
         final KeyAdapter keyListener = new KeyEventListener();
         final MouseEventListener mouseListener = new MouseEventListener(this);
-        int screenWidth = java.awt.Toolkit.getDefaultToolkit().getScreenSize().width;
-        int screenHeight = java.awt.Toolkit.getDefaultToolkit().getScreenSize().height;
+        //Set frame location
+        List<Resolution> devicesRes = ScreenUtil.getResolutions();
+        if (devicesRes == null || devicesRes.size() <=0) {
+            System.err.println("KMFrame init error, the number of master' screen is 0. ");
+        }
+        Resolution res = devicesRes.get(0);
+        int screenWidth = res.getWidth();
+        int screenHeight = res.getHeight();
         this.setSize(1200, 800);//设置Frame的大小
         this.setLocation((screenWidth - 1200) / 2, (screenHeight - 800) / 2);//设置Frame显示在屏幕中央
 

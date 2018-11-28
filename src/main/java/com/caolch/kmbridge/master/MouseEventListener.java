@@ -50,6 +50,6 @@ public class MouseEventListener extends MouseAdapter {
     @Override
     public void mouseMoved(MouseEvent e) {
 //        System.out.println(e.getLocationOnScreen().toString());
-        System.out.println(this.jFrame.getLocation().toString());
+//        System.out.println(this.jFrame.getLocation().toString());
     }
 }

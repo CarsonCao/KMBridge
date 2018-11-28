@@ -1,7 +1,6 @@
 package com.caolch.kmbridge.master;
 
 import javax.swing.*;
-import java.awt.event.KeyAdapter;
 import java.lang.reflect.InvocationTargetException;
 
 public class MainFunc {
