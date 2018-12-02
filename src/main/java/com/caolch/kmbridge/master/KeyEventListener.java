@@ -9,20 +9,25 @@ public class KeyEventListener extends KeyAdapter {
     private Set<Integer> pressKeys = new HashSet<Integer>();
     @Override
     public void keyTyped(KeyEvent e) {
-        System.out.println(e.getKeyChar());
+        System.out.println(e.getKeyChar()+",Key Code:" + e.getKeyCode());
 
     }
 
     @Override
     public void keyPressed(KeyEvent e) {
-        pressKeys.remove(e.getKeyCode());
-        System.out.println("Press key: " + KeyEvent.getKeyText(e.getKeyCode()));
+        pressKeys.add(e.getKeyCode());
+        System.out.println("Press key: " + KeyEvent.getKeyText(e.getKeyCode())+",Key Code:" + e.getKeyCode());
     }
 
     @Override
     public void keyReleased(KeyEvent e) {
-        pressKeys.add(e.getKeyCode());
-        System.out.println("Release key:" + KeyEvent.getKeyText(e.getKeyCode()));
+        if (pressKeys.contains(e.getKeyCode())) {
+            pressKeys.remove(e.getKeyCode());
+        } else {
+            System.out.println("Press key: " + KeyEvent.getKeyText(e.getKeyCode())+",Key Code:" + e.getKeyCode());
+            System.out.println(e.getKeyChar()+",Key Code:" + e.getKeyCode());
+        }
+        System.out.println("Release key:" + KeyEvent.getKeyText(e.getKeyCode())+",Key Code:" + e.getKeyCode());
     }
 
     /**

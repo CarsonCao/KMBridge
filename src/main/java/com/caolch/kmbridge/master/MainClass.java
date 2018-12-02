@@ -1,13 +1,17 @@
 package com.caolch.kmbridge.master;
 
+import com.caolch.kmbridge.common.ParamsManager;
+
 import javax.swing.*;
-import java.awt.event.KeyAdapter;
 import java.lang.reflect.InvocationTargetException;
 
-public class MainFunc {
+public class MainClass {
     public static void main(String[] args) {
+        //Init frame
         JFrame.setDefaultLookAndFeelDecorated(true);
         final JFrame km = new KMFrame();
+        //Init params
+        ParamsManager pm = new ParamsManager();
 
         try {
             /**

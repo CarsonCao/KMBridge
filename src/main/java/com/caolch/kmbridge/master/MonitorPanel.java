@@ -12,7 +12,7 @@ import java.util.List;
  */
 public class MonitorPanel extends JPanel {
 
-    public List<Resolution> devices;
+    private List<Resolution> devices;
 
     public MonitorPanel(List<Resolution> res) {
         super();
@@ -22,18 +22,24 @@ public class MonitorPanel extends JPanel {
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
-        int preX = 10;
-        for (Resolution r : devices) {
-            drawMonitor(g, preX , 10, r.getWidth(), r.getHeight());
+        int preX = (int)Constants.STROKE_BORDER;
+        for (int i = 0; i< devices.size();i++) {
+            Resolution r = devices.get(i);
+            drawMonitor(g, preX , (int)Constants.STROKE_BORDER, r.getWidth(), r.getHeight(), i);
             preX += r.getWidth() + (int)Constants.STROKE_BORDER;
         }
     }
 
-    public void drawMonitor(Graphics g, int x, int y, int width, int height) {
+    public void drawMonitor(Graphics g, int x, int y, int width, int height, int tag) {
         Graphics2D g2d = (Graphics2D) g.create();
-        g2d.setColor(Color.GRAY);
+        Font font = new Font("TimesRoman", Font.BOLD,50);
+
+        g2d.setColor(Color.ORANGE);
         g2d.setStroke(new BasicStroke(Constants.STROKE_BORDER));
         g2d.drawRoundRect( x, y, width, height, 20, 20);
+        g2d.setFont(font);
+        g2d.setColor(Color.WHITE);
+        g2d.drawString("Monitor-" + (tag + 1), x + width / 2 -100 , y + height / 2);
         g2d.dispose();
     }
 }
