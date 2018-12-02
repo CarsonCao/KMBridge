@@ -3,15 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="31918b37-af7c-4fe2-84bd-325505d32180" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/common/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/common/Constants.java" afterDir="false" />
+=======
+>>>>>>> 94de0502a47e8c52f4982d7dd0bb54eae0f73361
       <change beforePath="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/KMFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/KMFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/KeyEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/KeyEventListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/MainFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/MainClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/MonitorPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/MonitorPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/MouseEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/MouseEventListener.java" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/SocketClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/SocketClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/slave/MainFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/slave/MainClass.java" afterDir="false" />
+=======
+>>>>>>> 94de0502a47e8c52f4982d7dd0bb54eae0f73361
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,6 +33,7 @@
       <file leaf-file-name="ParamsOption.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/common/ParamsOption.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="220">
               <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
               <folding>
@@ -43,11 +50,19 @@
                 <element signature="e#2228#2229#0" expanded="true" />
                 <element signature="e#2268#2269#0" expanded="true" />
                 <element signature="e#2300#2301#0" expanded="true" />
+=======
+            <state relative-caret-position="245">
+              <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1670#1682#0" expanded="true" />
+>>>>>>> 94de0502a47e8c52f4982d7dd0bb54eae0f73361
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Properties.java" pinned="false" current-in-tab="false">
         <entry file="jar://E:/program files/java/java1.8/src.zip!/java/util/Properties.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -68,15 +83,30 @@
                 <element signature="e#1786#1787#0" expanded="true" />
                 <element signature="e#1849#1850#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="ParamsManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/common/ParamsManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+>>>>>>> 94de0502a47e8c52f4982d7dd0bb54eae0f73361
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="CommandLineParser.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/commons-cli/commons-cli/1.2/commons-cli-1.2.jar!/org/apache/commons/cli/CommandLineParser.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
               <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+=======
+      <file leaf-file-name="ParamsOption.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/common/ParamsOption.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+>>>>>>> 94de0502a47e8c52f4982d7dd0bb54eae0f73361
             </state>
           </provider>
         </entry>
@@ -84,17 +114,57 @@
       <file leaf-file-name="SocketClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/SocketClient.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="741">
               <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+=======
+            <state relative-caret-position="646">
+              <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> 94de0502a47e8c52f4982d7dd0bb54eae0f73361
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Parser.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/commons-cli/commons-cli/1.2/commons-cli-1.2.jar!/org/apache/commons/cli/Parser.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
               <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+=======
+      <file leaf-file-name="ScreenUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/Utils/ScreenUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MonitorPanel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/MonitorPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Resolution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/Utils/Resolution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+>>>>>>> 94de0502a47e8c52f4982d7dd0bb54eae0f73361
             </state>
           </provider>
         </entry>
@@ -102,8 +172,16 @@
       <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/common/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="44">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+=======
+            <state relative-caret-position="180">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> 94de0502a47e8c52f4982d7dd0bb54eae0f73361
             </state>
           </provider>
         </entry>
@@ -111,8 +189,16 @@
       <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="361">
               <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+=======
+            <state relative-caret-position="279">
+              <caret line="50" column="42" lean-forward="true" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> 94de0502a47e8c52f4982d7dd0bb54eae0f73361
             </state>
           </provider>
         </entry>
@@ -120,8 +206,13 @@
       <file leaf-file-name="ParamsManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/common/ParamsManager.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="414">
               <caret line="40" column="58" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
+=======
+            <state relative-caret-position="152">
+              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+>>>>>>> 94de0502a47e8c52f4982d7dd0bb54eae0f73361
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1158#1159#0" expanded="true" />
@@ -135,6 +226,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="RunningType.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/common/RunningType.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -144,6 +236,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> 94de0502a47e8c52f4982d7dd0bb54eae0f73361
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -181,8 +275,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/Utils/ScreenUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/MouseEventListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/MainFunc.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/SocketClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/MonitorPanel.java" />
+=======
+>>>>>>> 94de0502a47e8c52f4982d7dd0bb54eae0f73361
         <option value="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/KMFrame.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/KeyEventListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/common/Constants.java" />
@@ -208,10 +305,16 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="58" />
     <option name="y" value="-18" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
+=======
+    <option name="x" value="55" />
+    <option name="width" value="1349" />
+    <option name="height" value="690" />
+>>>>>>> 94de0502a47e8c52f4982d7dd0bb54eae0f73361
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -219,8 +322,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="AndroidView" />
+=======
+>>>>>>> 94de0502a47e8c52f4982d7dd0bb54eae0f73361
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -308,6 +414,11 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+>>>>>>> 94de0502a47e8c52f4982d7dd0bb54eae0f73361
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -330,7 +441,11 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.MainClass">
+=======
+  <component name="RunManager" selected="Application.MainFunc">
+>>>>>>> 94de0502a47e8c52f4982d7dd0bb54eae0f73361
     <configuration name="KMFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.caolch.kmbridge.master.KMFrame" />
       <module name="shareKeyboardMouse" />
@@ -436,7 +551,11 @@
     </list>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Application.MainClass" />
+=======
+        <item itemvalue="Application.MainFunc" />
+>>>>>>> 94de0502a47e8c52f4982d7dd0bb54eae0f73361
         <item itemvalue="Application.KMFrame" />
         <item itemvalue="Application.ScreenUtil" />
         <item itemvalue="Application.SocketClient" />
@@ -469,19 +588,31 @@
       <workItem from="1543052610126" duration="10830000" />
       <workItem from="1543160279850" duration="96000" />
       <workItem from="1543199729759" duration="1718000" />
+<<<<<<< HEAD
       <workItem from="1543204272602" duration="18262000" />
       <workItem from="1543326811851" duration="733000" />
       <workItem from="1543639713989" duration="8799000" />
       <workItem from="1543718258986" duration="9802000" />
+=======
+      <workItem from="1543204272602" duration="18444000" />
+      <workItem from="1543382174643" duration="3265000" />
+>>>>>>> 94de0502a47e8c52f4982d7dd0bb54eae0f73361
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="55265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
+=======
+    <option name="totallyTimeSpent" value="38518000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+>>>>>>> 94de0502a47e8c52f4982d7dd0bb54eae0f73361
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -493,11 +624,19 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.019639935" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.39443535" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28441754" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25677603" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.23252496" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27479893" />
+>>>>>>> 94de0502a47e8c52f4982d7dd0bb54eae0f73361
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -526,11 +665,68 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/SocketClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/Utils/Tools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/Utils/Resolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/MainFunc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/slave/SocketServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/KeyEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 94de0502a47e8c52f4982d7dd0bb54eae0f73361
     <entry file="jar://E:/program files/java/java1.8/src.zip!/java/awt/event/KeyEvent.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/MouseEventListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> 94de0502a47e8c52f4982d7dd0bb54eae0f73361
         </state>
       </provider>
     </entry>
@@ -621,8 +817,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/slave/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="38">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+=======
+        <state relative-caret-position="275">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+>>>>>>> 94de0502a47e8c52f4982d7dd0bb54eae0f73361
         </state>
       </provider>
     </entry>
@@ -642,6 +843,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="jar://E:/program files/java/java1.8/src.zip!/java/awt/Color.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17366">
@@ -664,6 +866,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/slave/SocketServer.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/common/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/slave/MainFunc.java">
+>>>>>>> 94de0502a47e8c52f4982d7dd0bb54eae0f73361
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
@@ -679,40 +891,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="190">
           <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+=======
+        <state relative-caret-position="14592">
+          <caret line="809" column="14" selection-start-line="809" selection-start-column="14" selection-end-line="809" selection-end-column="14" />
+>>>>>>> 94de0502a47e8c52f4982d7dd0bb54eae0f73361
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/KeyEventListener.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="438">
           <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
           <folding>
             <element signature="e#251#260#0" expanded="true" />
+=======
+        <state relative-caret-position="152">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+>>>>>>> 94de0502a47e8c52f4982d7dd0bb54eae0f73361
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/KMFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="949">
           <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/MonitorPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+>>>>>>> 94de0502a47e8c52f4982d7dd0bb54eae0f73361
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="jar://$MAVEN_REPOSITORY$/commons-cli/commons-cli/1.2/commons-cli-1.2.jar!/org/apache/commons/cli/Parser.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/MouseEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="50" column="42" lean-forward="true" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> 94de0502a47e8c52f4982d7dd0bb54eae0f73361
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/commons-cli/commons-cli/1.2/commons-cli-1.2.jar!/org/apache/commons/cli/CommandLineParser.class">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="76">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
@@ -727,10 +969,17 @@
             <element signature="e#662#663#0" expanded="true" />
             <element signature="e#1786#1787#0" expanded="true" />
             <element signature="e#1849#1850#0" expanded="true" />
+=======
+        <state relative-caret-position="180">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+>>>>>>> 94de0502a47e8c52f4982d7dd0bb54eae0f73361
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -784,10 +1033,19 @@
             <element signature="e#2228#2229#0" expanded="true" />
             <element signature="e#2268#2269#0" expanded="true" />
             <element signature="e#2300#2301#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/Utils/ScreenUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+>>>>>>> 94de0502a47e8c52f4982d7dd0bb54eae0f73361
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/common/ParamsManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -800,6 +1058,46 @@
             <element signature="e#1283#1284#0" expanded="true" />
             <element signature="e#1321#1322#0" expanded="true" />
             <element signature="e#1372#1373#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/Utils/Resolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/common/ParamsOption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/SocketClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/common/ParamsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/caolch/kmbridge/master/KMFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1670#1682#0" expanded="true" />
+>>>>>>> 94de0502a47e8c52f4982d7dd0bb54eae0f73361
           </folding>
         </state>
       </provider>
