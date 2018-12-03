@@ -9,5 +9,8 @@
         <module name="shareKeyboardMouse" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="shareKeyboardMouse" target="6" />
+    </bytecodeTargetLevel>
   </component>
 </project>
