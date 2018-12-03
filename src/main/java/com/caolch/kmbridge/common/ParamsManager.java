@@ -9,7 +9,6 @@ public class ParamsManager {
     private static ParamsOption paramsOption;
     private static Properties pro;
     private static RunningType runningType;
-    private static String hostname;
 
     public ParamsManager() {
         synchronized (this) {
@@ -33,6 +32,10 @@ public class ParamsManager {
                 pro = new Properties();
             }
         }
+    }
+
+    public  void load(RunningType type) {
+
     }
 
     private void setProperiesFromFile() {
