@@ -6,57 +6,66 @@ import java.util.Properties;
 
 public class ParamsManager {
 
-    private static ParamsOption paramsOption;
+    private static ParamsManager paramsMgr = null;
+    private static ParamsOption paramsOption = null;
+    private static RunningType runningType = RunningType.MASTER;
+    private static String hostname = Constants.DEFAULT_HOST;
+    private static String port = Constants.DEFAULT_PORT;
     private static Properties pro;
-    private static RunningType runningType;
 
-    public ParamsManager() {
-        synchronized (this) {
-            if (paramsOption == null) {
-                paramsOption = new ParamsOption();
-            }
-            if (pro == null) {
-                pro = new Properties();
-            }
-        }
+    private ParamsManager() {
+        pro = new Properties();
     }
 
-    public ParamsManager(String[] args) {
+    public static ParamsManager getOrCreate() {
+        if (paramsMgr == null) {
+            synchronized (ParamsManager.class) {
+                if (paramsMgr == null) {
+                    paramsMgr = new ParamsManager();
+                }
+            }
+        }
+        return paramsMgr;
+    }
+
+    public static ParamsManager getOrCreate(RunningType type) {
+        runningType = type;
+        return getOrCreate();
+    }
+
+    public void load(String[] args) {
         synchronized (this) {
             if (args != null && args.length > 1 && paramsOption == null) {
                 paramsOption = new ParamsOption(args);
             } else if (paramsOption == null) {
                 paramsOption = new ParamsOption();
             }
-            if (pro == null) {
-                pro = new Properties();
-            }
+            setProperiesFromFile();
+            //TO DO
+            //按照优先级设置参数，主要是hostname和port
         }
-    }
-
-    public  void load(RunningType type) {
 
     }
 
     private void setProperiesFromFile() {
-        if (getConfigPath() != null && getConfigPath().length() > 0) {
+        if (getCmdConfigPath() != null && getCmdConfigPath().length() > 0) {
             try {
-                this.pro.load(new FileReader(getConfigPath()));
+                this.pro.load(new FileReader(getCmdConfigPath()));
             } catch (IOException e) {
                 e.printStackTrace();
             }
         }
     }
 
-    public String getHostname() {
+    private String getCmdHostname() {
         return paramsOption.getHostname();
     }
 
-    public String getPort() {
+    private String getCmdPort() {
         return paramsOption.getPort();
     }
 
-    public String getConfigPath() {
+    private String getCmdConfigPath() {
         return paramsOption.getConfigFile();
     }
 }

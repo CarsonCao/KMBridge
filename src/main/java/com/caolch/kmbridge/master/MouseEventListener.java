@@ -7,6 +7,7 @@ import java.awt.event.MouseWheelEvent;
 
 public class MouseEventListener extends MouseAdapter {
     JFrame jFrame;
+
     public MouseEventListener(JFrame frame) {
         super();
         this.jFrame = frame;

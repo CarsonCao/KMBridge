@@ -17,7 +17,7 @@ public class KMFrame extends JFrame {
         final MouseEventListener mouseListener = new MouseEventListener(this);
         //Set frame location
         List<Resolution> devicesRes = ScreenUtil.getResolutions();
-        if (devicesRes == null || devicesRes.size() <=0) {
+        if (devicesRes == null || devicesRes.size() <= 0) {
             System.err.println("KMFrame init error, the number of master' screen is 0. ");
         }
         Resolution res = devicesRes.get(0);

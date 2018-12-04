@@ -32,6 +32,7 @@ public class SocketServer {
 
     private class HandlerThread implements Runnable {
         private Socket socket;
+
         public HandlerThread(Socket client) {
             socket = client;
             new Thread(this).start();

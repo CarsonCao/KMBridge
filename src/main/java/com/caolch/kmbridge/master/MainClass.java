@@ -1,6 +1,7 @@
 package com.caolch.kmbridge.master;
 
 import com.caolch.kmbridge.common.ParamsManager;
+import com.caolch.kmbridge.common.RunningType;
 
 import javax.swing.*;
 import java.lang.reflect.InvocationTargetException;
@@ -11,7 +12,7 @@ public class MainClass {
         JFrame.setDefaultLookAndFeelDecorated(true);
         final JFrame km = new KMFrame();
         //Init params
-        ParamsManager pm = new ParamsManager();
+        ParamsManager pm = ParamsManager.getOrCreate(RunningType.MASTER);
 
         try {
             /**

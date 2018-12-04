@@ -6,19 +6,17 @@ import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.Properties;
-
 public class ParamsOption {
-    private String configFile = Constants.DEFAULT_CONFIGFILE_PATH;
-    private String hostname = Constants.DEFAULT_HOST;
-    private String port = Constants.DEFAULT_PORT;
-    Options options;
+    private String configFile = null;
+    private String hostname = null;
+    private String port = null;
+    private Options options;
 
     public ParamsOption() {
-        options = new Options();
-        options.addOption("c", "config",false, "The path of configure file");
+        if (options == null) {
+            options = new Options();
+        }
+        options.addOption("c", "config", false, "The path of configure file");
         options.addOption("h", "hostname", false, "hostname");
         options.addOption("p", "port", false, "port");
     }
