@@ -12,8 +12,7 @@ public class Main {
         JFrame.setDefaultLookAndFeelDecorated(true);
         final JFrame km = new KMFrame();
         //Init params
-        ParamsManager pm = ParamsManager.getOrCreate(RunningType.MASTER);
-
+        ParamsManager.getOrCreate(RunningType.MASTER).load(args);
         try {
             /**
              * 在主线程建frame会报异常，详细解决方案见如下链接：

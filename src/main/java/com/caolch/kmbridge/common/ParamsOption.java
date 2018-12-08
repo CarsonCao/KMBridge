@@ -7,7 +7,7 @@ import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 
 public class ParamsOption {
-    private String configFile = null;
+    private String configFile = Constants.DEFAULT_CONFIGFILE_PATH;
     private String hostname = null;
     private String port = null;
     private Options options;
@@ -16,9 +16,9 @@ public class ParamsOption {
         if (options == null) {
             options = new Options();
         }
-        options.addOption("c", "config", false, "The path of configure file");
-        options.addOption("h", "hostname", false, "hostname");
-        options.addOption("p", "port", false, "port");
+        options.addOption("c", "config", true, "The path of configure file");
+        options.addOption("h", "hostname", true, "hostname");
+        options.addOption("p", "port", true, "port");
     }
 
     public ParamsOption(String[] args) {

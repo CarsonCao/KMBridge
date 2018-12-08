@@ -41,8 +41,24 @@ public class ParamsManager {
                 paramsOption = new ParamsOption();
             }
             setProperiesFromFile();
-            //TO DO
-            //按照优先级设置参数，主要是hostname和port
+
+            String hostKey = runningType.name().toLowerCase() + Constants.PROPERTIES_KEY_HOSTNAME_POST;
+            String portKey = runningType.name().toLowerCase() + Constants.PROPERTIES_KEY_PORT_POST;
+
+            if (pro.containsKey(hostKey)) {
+                hostname = pro.getProperty(hostKey);
+            }
+            if (pro.containsKey(portKey)) {
+                port = pro.getProperty(portKey);
+            }
+            System.out.println(paramsOption.getHostname());
+            if (paramsOption.getHostname() != null) {
+                hostname = paramsOption.getHostname();
+            }
+            if (paramsOption.getPort() != null) {
+                port = paramsOption.getPort();
+            }
+
         }
 
     }
@@ -57,15 +73,24 @@ public class ParamsManager {
         }
     }
 
-    private String getCmdHostname() {
-        return paramsOption.getHostname();
-    }
-
-    private String getCmdPort() {
-        return paramsOption.getPort();
-    }
-
     private String getCmdConfigPath() {
         return paramsOption.getConfigFile();
+    }
+
+
+    public static String getHostname() {
+        return hostname;
+    }
+
+    public static void setHostname(String hostname) {
+        ParamsManager.hostname = hostname;
+    }
+
+    public static String getPort() {
+        return port;
+    }
+
+    public static void setPort(String port) {
+        ParamsManager.port = port;
     }
 }
