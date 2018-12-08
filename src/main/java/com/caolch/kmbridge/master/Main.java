@@ -6,7 +6,7 @@ import com.caolch.kmbridge.common.RunningType;
 import javax.swing.*;
 import java.lang.reflect.InvocationTargetException;
 
-public class MainClass {
+public class Main {
     public static void main(String[] args) {
         //Init frame
         JFrame.setDefaultLookAndFeelDecorated(true);
