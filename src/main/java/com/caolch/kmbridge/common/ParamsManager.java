@@ -6,7 +6,7 @@ import java.util.Properties;
 
 public class ParamsManager {
 
-    private static ParamsManager paramsMgr = null;
+    private volatile static ParamsManager paramsMgr = null;
     private static ParamsOption paramsOption = null;
     private static RunningType runningType = RunningType.MASTER;
     private static String hostname = Constants.DEFAULT_HOST;
@@ -40,7 +40,7 @@ public class ParamsManager {
             } else if (paramsOption == null) {
                 paramsOption = new ParamsOption();
             }
-            setProperiesFromFile();
+            setPropertiesFromFile();
 
             String hostKey = runningType.name().toLowerCase() + Constants.PROPERTIES_KEY_HOSTNAME_POST;
             String portKey = runningType.name().toLowerCase() + Constants.PROPERTIES_KEY_PORT_POST;
@@ -63,7 +63,7 @@ public class ParamsManager {
 
     }
 
-    private void setProperiesFromFile() {
+    private void setPropertiesFromFile() {
         if (getCmdConfigPath() != null && getCmdConfigPath().length() > 0) {
             try {
                 this.pro.load(new FileReader(getCmdConfigPath()));

@@ -1,4 +1,4 @@
-package com.caolch.kmbridge.Utils;
+package com.caolch.kmbridge.common;
 
 public class Resolution {
     private int width;

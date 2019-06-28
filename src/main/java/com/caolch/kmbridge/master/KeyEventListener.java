@@ -25,8 +25,8 @@ public class KeyEventListener extends KeyAdapter {
         if (pressKeys.contains(e.getKeyCode())) {
             pressKeys.remove(e.getKeyCode());
         } else {
-            System.out.println("Press key: " + KeyEvent.getKeyText(e.getKeyCode()) + ",Key Code:" + e.getKeyCode());
-            System.out.println(e.getKeyChar() + ",Key Code:" + e.getKeyCode());
+//            System.out.println("Press key: " + KeyEvent.getKeyText(e.getKeyCode()) + ",Key Code:" + e.getKeyCode());
+//            System.out.println(e.getKeyChar() + ",Key Code:" + e.getKeyCode());
         }
         System.out.println("Release key:" + KeyEvent.getKeyText(e.getKeyCode()) + ",Key Code:" + e.getKeyCode());
     }

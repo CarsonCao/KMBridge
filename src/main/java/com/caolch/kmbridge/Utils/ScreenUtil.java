@@ -1,11 +1,17 @@
 package com.caolch.kmbridge.Utils;
 
+import com.caolch.kmbridge.common.Resolution;
+
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public class ScreenUtil {
 
+    /**
+     * 获取屏幕分辨率.
+     * @return
+     */
     public static List<Resolution> getResolutions() {
         List<Resolution> rls = new ArrayList<Resolution>();
         GraphicsEnvironment g = GraphicsEnvironment.getLocalGraphicsEnvironment();

@@ -1,6 +1,6 @@
 package com.caolch.kmbridge.master;
 
-import com.caolch.kmbridge.Utils.Resolution;
+import com.caolch.kmbridge.common.Resolution;
 import com.caolch.kmbridge.common.Constants;
 
 import javax.swing.*;
@@ -12,9 +12,9 @@ import java.util.List;
  */
 public class MonitorPanel extends JPanel {
 
-    private List<Resolution> devices;
+    private List<PanelSizeLoc> devices;
 
-    public MonitorPanel(List<Resolution> res) {
+    public MonitorPanel(List<PanelSizeLoc> res) {
         super();
         devices = res;
     }
@@ -22,11 +22,11 @@ public class MonitorPanel extends JPanel {
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
-        int preX = (int) Constants.STROKE_BORDER;
+        int preSize = (int) Constants.STROKE_BORDER;
         for (int i = 0; i < devices.size(); i++) {
-            Resolution r = devices.get(i);
-            drawMonitor(g, preX, (int) Constants.STROKE_BORDER, r.getWidth(), r.getHeight(), i);
-            preX += r.getWidth() + (int) Constants.STROKE_BORDER;
+            PanelSizeLoc psl = devices.get(i);
+            drawMonitor(g, psl.getX() + preSize, psl.getY() + preSize,
+                    psl.getWidth() - preSize * 2, psl.getHeight() - preSize * 2, i);
         }
     }
 

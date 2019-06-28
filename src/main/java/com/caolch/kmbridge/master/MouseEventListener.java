@@ -1,6 +1,7 @@
 package com.caolch.kmbridge.master;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseWheelEvent;
@@ -40,7 +41,8 @@ public class MouseEventListener extends MouseAdapter {
 
     @Override
     public void mouseWheelMoved(MouseWheelEvent e) {
-        super.mouseWheelMoved(e);
+
+        System.out.println("Mouse wheel moved");
     }
 
     @Override
@@ -50,7 +52,9 @@ public class MouseEventListener extends MouseAdapter {
 
     @Override
     public void mouseMoved(MouseEvent e) {
-//        System.out.println(e.getLocationOnScreen().toString());
-//        System.out.println(this.jFrame.getLocation().toString());
+        Point screen_p = e.getLocationOnScreen();
+        Point frame_p = this.jFrame.getLocation();
+
+        //System.out.println((screen_p.x - frame_p.x) + ", " + (screen_p.y - frame_p.y));
     }
 }
